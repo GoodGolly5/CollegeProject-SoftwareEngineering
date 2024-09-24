@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('../assets/'); /* Replace with actual path to your image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #444;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+}
+
+.header-content {
+    position: relative;
+}
+
+.logo {
+    font-size: 48px;
+    margin: 0;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.search-bar .camera-icon {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Lighten background */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.about-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.about-box h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-email {
+    margin-bottom: 20px;
+}
+
+.footer-email input {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.footer-email button {
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    font-size: 14px;
+}

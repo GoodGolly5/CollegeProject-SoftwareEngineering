@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+img.header{
+    background-image: url('../assets/profile.png');
+}
+
+.profile-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-picture{
+    /* background-image: url('../assets/forum1.png'); */
+}
+img.profile-picture {
+    /* background-image: url('../assets/profile.png'); */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-image: url('../assets/profile.png');
+}
+
+.profile-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.profile-info h2 {
+    margin: 0;
+}
+
+.profile-info p {
+    color: gray;
+    margin: 5px 0 0;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.form-group {
+    flex: 1 1 45%;
+    margin: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.email-section {
+    margin-top: 20px;
+}
+
+.add-email-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
